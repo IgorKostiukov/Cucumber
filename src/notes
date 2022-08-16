@@ -1,0 +1,71 @@
+Class 1 - Cucumber
+
+Cucumber - it is a tool that supports BDD
+
+Given - pre condition
+When - to perform actions
+And - supporting tag
+Then - expected result/outcome
+
+
+US - 2345 - Search employee by id
+Given user is able to open chrome browser
+When user enters username and password
+And user clicks on login button
+Then user is navigated to dashboard page
+When user clicks on PIM option
+And user clicks on employee list option
+When user enters id in the employee id field
+And user clicks on search button
+Then user is able to see the employee
+
+-- Cucumbers encourages code reusability concept
+
+main - the code we write to develop the application, we write under main
+
+develop the application
+to test the application
+
+test - the code we write to test the application, we write under test
+
+2 things we have in every project
+
+- coding - java
+- non - java  - properties file, excel etc.
+
+coding will be at one place
+non java will be at another place
+
+
+-- to write gherkin scenarios, we use feature files
+
+
+
+Valid admin login
+Given user is navigated to HRMS application
+When user enters admin username and password
+And clicks on login button
+Then admin user is successfully logged in
+
+scenario - every scenario is considered as one test case
+
+why we don't need system.setproperty() -  "driver/chromedriver.exe"
+if the path is incorrect to webdriver - it will fail, path is limited to one machine
+many time it is not compatible with browser
+
+we use webdrivermanager from now onwards
+
+
+Class 2 -
+
+--  Recap --
+  -- Cucumber - it is a tool that supports BDD
+  -- Gherkin language we use to write BDD
+  -- Feature, Scenario, Given, When, Then, And
+
+What is framework -
+    -- it is an organized structure which allows us to write clean and maintainable code
+
+    Feature file - declare steps in it
+
+POM - page object model is a design pattern in which we create object repository
