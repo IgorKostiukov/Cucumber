@@ -1,7 +1,7 @@
 Feature: Employee search
 
   Scenario: Search employee by id
-    Given user is navigated to HRMS application
+    #Given user is navigated to HRMS application
     When user enters valid admin username and password
     And user clicks on login button
     Then admin user is successfully logged in
@@ -13,7 +13,7 @@ Feature: Employee search
 
 
   Scenario: Search employee by name
-    Given user is navigated to HRMS application
+   # Given user is navigated to HRMS application
     When user enters valid admin username and password
     And user clicks on login button
     Then admin user is successfully logged in
