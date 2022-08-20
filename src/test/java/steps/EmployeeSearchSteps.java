@@ -39,15 +39,11 @@ public class EmployeeSearchSteps extends CommonMethods {
     public void user_is_able_to_see_the_employee() {
         //homework - verify the employee is present
         System.out.println("Employee is available");
-
     }
+
     @When("user enters name of the employee")
     public void user_enters_name_of_the_employee() {
-        //   EmployeeInformationPage emp = new EmployeeInformationPage();
-        //this line will search the employee whose locator is avaiable on empl info page
-        //send text method we are calling from common methods
-        sendText(emp.nameEmployeeSearch, "John");
+        sendText(emp.nameEmployeeSearch,  "test");
     }
-
 
 }
