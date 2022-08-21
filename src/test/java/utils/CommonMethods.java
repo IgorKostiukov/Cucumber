@@ -63,8 +63,8 @@ public class CommonMethods extends PageInitializer {
     //to perform click operation
 
     public static void click(WebElement element){
-        waitForClickability(element);
-        element.click();
+    waitForClickability(element);
+    element.click();
     }
 
     //select class for dropdown
